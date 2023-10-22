@@ -1,7 +1,7 @@
 # sergio21sem_infra
 sergio21sem Infra repository
 
-bastion_IP = 84.201.131.34
+bastion_IP = 51.250.78.165
 someinternalhost_IP = 10.128.0.11
 
 ## ДЗ по теме: "Знакомство с облачной инфраструктурой и облачными сервисами "
