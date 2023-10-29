@@ -26,3 +26,7 @@ Host bastion
   ```
 
 далее: ssh someinternalhost
+
+## HW6 Основные сервисы Yandex Cloud
+testapp_IP = 158.160.102.90
+testapp_port = 9292
