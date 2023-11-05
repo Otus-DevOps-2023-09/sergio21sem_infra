@@ -1,4 +1,3 @@
-cloud_token = "y0_AgAAAAAcHe46AATuwQAAAADwdByaibEaGds0SfekKeIbrjHbNqA_D5s"
 variable "cloud_id" {
   description = "Cloud"
   default     = "b1g6jpa9702uul5hrq7s"
