@@ -1,7 +1,7 @@
 resource "yandex_lb_network_load_balancer" "ext-lb-test" {
   name                = "ext-lb-test-1"
   type                = "external"
-  deletion_protection = "false"
+#  deletion_protection = "false"
   depends_on          = [yandex_lb_target_group.foo]
   listener {
     name        = "test-listener"
