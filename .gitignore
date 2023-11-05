@@ -7,4 +7,4 @@
 .terraform/
 terraform.tfvars
 secret.auto.tfvars
-terraform.tfvars.example
+#terraform.tfvars.example
