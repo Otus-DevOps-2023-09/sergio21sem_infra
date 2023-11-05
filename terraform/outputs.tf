@@ -6,5 +6,5 @@ output "external_ip_address_app2" {
 }
 
 output "external_lb_ip_address" {
-  value = yandex_lb_network_load_balancer.ext-lb-test.listener
+  value = yandex_lb_network_load_balancer.ext-lb-test.listener.*.external_address_spec[0].*.address
 }
