@@ -1,0 +1,10 @@
+.packer/variables.json
+*.tfstate
+*.tfstate.*.backup
+*.tfstate.backup
+*.tfvars
+*.hcl
+.terraform/
+terraform.tfvars
+secret.auto.tfvars
+#terraform.tfvars.example
