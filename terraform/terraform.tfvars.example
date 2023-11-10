@@ -8,3 +8,5 @@ private_key_path         = "/home/user/.ssh/id_ed25519"
 subnet_id                = "fdsfsdfwegrettghyrlllfe"
 service_account_key_file = "/home/user/key.json"
 instances_count          = 2
+app_disk_image           = "reddit-app-base"
+db_disk_image            = "reddit-db-base"

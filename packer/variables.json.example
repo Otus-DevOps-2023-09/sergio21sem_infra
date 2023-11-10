@@ -2,5 +2,5 @@
   "service_account_key_file": "./key.json",
   "folder_id": "b1gnm6kb1jng1pcmesi1",
   "source_image_family": "ubuntu-1604-lts",
-  "subnet_id": "a1bavm4cuomf9kqep4bm"
+  "subnet_id": "enpkosi8tuni9apstpk5"
 }
