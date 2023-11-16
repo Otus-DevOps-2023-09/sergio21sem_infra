@@ -1,14 +1,14 @@
-#terraform {
-#  required_providers {
-#    yandex = {
-#      source = "yandex-cloud/yandex"
-#    }
-#  }
-#  required_version = ">= 0.13"
-#s}
+terraform {
+  required_providers {
+    yandex = {
+      source = "yandex-cloud/yandex"
+    }
+  }
+  required_version = ">= 0.13"
+}
 
 resource "yandex_compute_instance" "db" {
-  name = "reddit-db"
+  name = "reddit-db-${environment}"
   labels = {
     tags = "reddit-db"
   }

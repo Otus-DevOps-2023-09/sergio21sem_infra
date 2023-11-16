@@ -9,7 +9,7 @@ variable "service_account_key_file" {
 }
 variable "zone" {
   description = "Zone"
-  default = "ru-central1-a"
+  default     = "ru-central1-a"
 }
 variable "bucket_name" {
   description = "Name of S3 bucket"
