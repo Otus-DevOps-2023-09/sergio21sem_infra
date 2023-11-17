@@ -10,3 +10,7 @@ service_account_key_file = "/home/user/key.json"
 instances_count          = 2
 app_disk_image           = "reddit-app-base"
 db_disk_image            = "reddit-db-base"
+bucket_name              = "sergio21sem"
+access_key               = "YCbbbbbbbbbbbbbbbbbbbbbbb"
+secret_key               = "YCbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb"
+env                      = "prod"
