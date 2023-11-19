@@ -8,7 +8,7 @@ terraform {
 }
 
 resource "yandex_compute_instance" "db" {
-  name = "reddit-db-${environment}"
+  name = "reddit-db"
   labels = {
     tags = "reddit-db"
   }
