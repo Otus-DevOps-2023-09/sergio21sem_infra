@@ -5,7 +5,7 @@
 #    }
 #  }
 #  required_version = ">= 0.13"
-#s}
+#}
 
 resource "yandex_compute_instance" "db" {
   name = "reddit-db"

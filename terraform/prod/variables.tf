@@ -39,3 +39,7 @@ variable "db_disk_image" {
   description = "Disk image for reddit db"
   default     = "fd8f82bhflu4e2igk2aq"
 }
+variable "environment" {
+  description = "project environment"
+  default = "production"
+}
