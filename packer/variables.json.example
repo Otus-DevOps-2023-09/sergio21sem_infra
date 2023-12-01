@@ -1,6 +1,6 @@
 {
-  "service_account_key_file": "./key.json",
+  "service_account_key_file": "./packer/key.json",
   "folder_id": "b1gnm6kb1jng1pcmesi1",
-  "source_image_family": "ubuntu-1604-lts",
+  "source_image_family": "ubuntu-2004-lts",
   "subnet_id": "enpkosi8tuni9apstpk5"
 }
