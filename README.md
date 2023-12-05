@@ -85,11 +85,9 @@ appserver                  : ok=2    changed=1    unreachable=0    failed=0    s
 
 HW *
 1. inventory_static.json - статический инвентори в формате json ( проверил, отрабатывает)
-2.
-
-
 
 Ansible
 install community.general collection:
 
 ansible-galaxy collection install -r requirements.yml
+
